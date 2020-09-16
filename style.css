@@ -47,9 +47,18 @@ body {
     top: -100px;
     left: -260px;
 }
+.shadow-layer {
+    position: absolute;
+    top: -85px;
+    left: -230px;
+    filter: brightness(0);
+    opacity: 40%;
+    z-index: -11;
+}
 
 .layer1 {
     z-index: 10;
+    
 }
 .layer2 {
     z-index: -10;
