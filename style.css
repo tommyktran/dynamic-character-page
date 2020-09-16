@@ -55,6 +55,11 @@ body {
     opacity: 40%;
     z-index: -11;
 }
+.stand-stats {
+    position: absolute;
+    top: 170px;
+    left: -380px;
+}
 
 .layer1 {
     z-index: 10;
