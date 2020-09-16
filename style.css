@@ -12,27 +12,7 @@ body {
     background-color: #111;
     display: flex;
 }
-/* Where I left off. I got the 3d effect to work and I was trying to make the edges of the 
-character box fade into the background by using the linear gradient trick from my Mush
-website. I couldn't quite get it to work, though. I think I'll work more on the 3d effect
-and make a separate page for more extravagant things I'd like to do. */
-.right-side, .left-side {
-    height: 100%;
-    width: 30%;
-    z-index: -50;
-    margin: 0;
-    position: absolute;
-}
-.left-side {
-    float: right;
-    background: linear-gradient(to left, rgba(28, 28, 28, 0) , rgba(51, 51, 51, 1) 30%);
-}
-.right-side {
-    
-    float: left;
-    background: linear-gradient(to right, rgba(28, 28, 28, 0) , rgba(51, 51, 51, 1) 30%);
 
-}
 @keyframes scroller {
     0% {
         background-position-x: 0px;
@@ -60,28 +40,7 @@ and make a separate page for more extravagant things I'd like to do. */
     z-index: -100;
 }
 
-.middle-layer {    
-    background-color: #333;
 
-    padding: 6px;
-    font-size: 10px;
-    font-family: LifeSC;
-    color: white;
-
-    /* The positioning of the middle layer */
-    position: absolute;
-    top: 315px;
-    left: 342px;
-    z-index: 1;
-
-}
-.middle-title {
-    margin-bottom: -10px;
-}
-.middle-subtitle {
-    font-size: 12px;
-    text-align: right;
-}
 
 .layer1, .layer2 {
     position: absolute;
@@ -109,7 +68,7 @@ and make a separate page for more extravagant things I'd like to do. */
     text-align: center;
     position: absolute;
     right: -360px;
-    top: 196px;
+    top: 212px;
     border-radius: 2px;
     border: 1px solid white;
 }
@@ -131,6 +90,7 @@ and make a separate page for more extravagant things I'd like to do. */
     font-size: 27px;
     font-family: Casad;
     color: white;
+    padding-bottom: 10px;
 
     /* Lots of text shadows to create thickness effect */
     text-shadow: 0 0px 1px black,
@@ -141,9 +101,7 @@ and make a separate page for more extravagant things I'd like to do. */
                  0 0px 1.5px black,
                  0 0px 1.6px black;    
 }
-.stand-stats {
-    padding: 20px;
-}
+
 /* Media queries */
 @media only screen and (min-height: 700px) {
     body {
