@@ -59,8 +59,17 @@ body {
     position: absolute;
     top: 170px;
     left: -380px;
+    filter: grayscale(100%); 
 }
 
+
+img {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
 .layer1 {
     z-index: 10;
     
