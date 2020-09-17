@@ -45,7 +45,7 @@ body {
     position: absolute;
     top: -100px;
     left: -260px;
-    animation: opaque .1s 1.8s forwards;
+    animation: opaque .1s 1.5s forwards;
 }
 @keyframes opaque {
     0% {
