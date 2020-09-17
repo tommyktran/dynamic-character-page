@@ -55,6 +55,22 @@ body {
     opacity: 40%;
     z-index: -11;
 }
+.menacing {
+    position: absolute;
+    left: 50px;
+    top: -90px;
+    animation: shake .13s steps(2) infinite alternate;
+    z-index: 50;
+}
+@keyframes shake {
+    from {
+        transform: translate(-2px, 0);
+    }
+    to {
+        transform: translate(2px, 0);
+    }
+}
+
 .stand-stats {
     position: absolute;
     top: 170px;
